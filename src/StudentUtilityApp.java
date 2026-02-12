@@ -19,10 +19,76 @@ public class StudentUtilityApp {
             choice = sc.nextInt();
 
 
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter first number: ");
+                    int num1 = sc.nextInt();
+                    System.out.print("Enter second number: ");
+                    int num2 = sc.nextInt();
+                    int sum = num1 + num2;
+                    System.out.println("Result: " + (sum));
+                    break;
 
 
+                case 2:
+                    System.out.print("Enter a number: ");
+                    int number = sc.nextInt();
+                    if (number % 2 == 0) {
+                        System.out.println(number + " is EVEN.");
+                    } else {
+                        System.out.println(number + " is ODD.");
+                    }
+                    break;
 
 
+                case 3:
+                    System.out.print("Enter a number (N): ");
+                    int N = sc.nextInt();
+                    System.out.println("Numbers from 1 to " + N + ":");
+                    for (int i = 1; i <= N; i++) {
+                        System.out.println(i + " ");    
+                    }
+                    break;
+
+                case 4:
+                    System.out.print("Enter a number (1-7) for the day of the week: ");
+                    int day = sc.nextInt();
+                         
+                                switch (day) {
+                                    case 1:
+                                        
+                                        System.out.println("Monday");
+                                        break;
+                                    case 2:
+                                        System.out.println("Tuesday");
+                                        break;
+                                    case 3:
+                                        System.out.println("Wednesday");
+                                        break;
+                                    case 4:
+                                        System.out.println("Thursday");
+                                        break;
+                                    case 5:
+                                        System.out.println("Friday");
+                                        break;
+                                    case 6:
+                                        System.out.println("Saturday");
+                                        break;
+                                    case 7:
+                                        System.out.println("Sunday");
+                                        break;
+                                    default:
+                                        System.out.println("Invalid day");
+                                }
+            
+                
+                case 5:
+                    System.out.println("Thank you for using the app");
+                    break;
+                default:
+                    System.out.println("Invalid choice! Please try again.");
+                    break;
+            }
 
         }
         while (choice !=5);
