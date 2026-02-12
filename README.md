@@ -14,9 +14,35 @@ A Java application that provides utility functions for student management and ac
 ## Sample Output
 
 ```
-Welcome to Student Utility App
-Enter student name: John Doe
-Student registered successfully
+==== STUDENT UTILITY APP ====
+1. Add Two Numbers
+2. Check if a number is EVEN or ODD
+3. Print Numbers from 1 to N
+4. Display Day of the Week
+5. Exit
+Enter your choice: 1
+Enter first number: 30
+Enter second number: 10
+Result: 40
+
+==== STUDENT UTILITY APP ====
+1. Add Two Numbers
+2. Check if a number is EVEN or ODD
+3. Print Numbers from 1 to N
+4. Display Day of the Week
+5. Exit
+Enter your choice: 2
+Enter a number: 121
+121 is ODD.
+
+==== STUDENT UTILITY APP ====
+1. Add Two Numbers
+2. Check if a number is EVEN or ODD
+3. Print Numbers from 1 to N
+4. Display Day of the Week
+5. Exit
+Enter your choice: 5
+Thank you for using the app
 ```
 
 ## Author

@@ -9,7 +9,7 @@ public class StudentUtilityApp {
 
         do {
             // 1. Application Menu
-            System.out.println("\n==== Application Menu ====");
+            System.out.println("\n==== STUDENT UTILITY APP ====");
             System.out.println("1. Add Two Numbers");
             System.out.println("2. Check if a number is EVEN or ODD");
             System.out.println("3. Print Numbers from 1 to N");
